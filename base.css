@@ -1,0 +1,37 @@
+body {
+  font-size: 20px;
+  margin: 2rem;
+  background-color: #eee;
+}
+code {
+  color: hsl(0deg 100% 27%);
+  background-color: #f7f7f7;
+  padding: 0.1em;
+  border-radius: 5px;
+  border: #ddd 1px solid;
+}
+a,
+a:visited,
+[type="button"] {
+  cursor: pointer;
+  color: hsl(240deg 100% 27%);
+}
+a:hover,
+a:focus {
+  text-decoration: underline dotted;
+}
+[type="button"] {
+  font-size: 1em;
+  background: hsl(240deg 33% 90%);
+  box-shadow: -0.1em 0.1em hsl(240deg 100% 27%);
+  transform: translate(0.1em, -0.1em);
+  padding: 0.2em 0.5em;
+  border: 2px solid hsl(240deg 100% 27%);
+  border-radius: 0.33em;
+  color: hsl(240deg 100% 27%);
+}
+[type="button"]:hover {
+  background: hsl(240deg 66% 85%);
+  box-shadow: none;
+  transform: unset;
+}
